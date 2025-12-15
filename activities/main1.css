@@ -1,0 +1,204 @@
+/* ===============================
+   Base Layout
+=============================== */
+html {
+    background-color: #e9f3fb;
+}
+
+body {
+    margin: 0 auto;
+    margin-top: 1em;
+    width: 760px;
+    font-family: "Segoe UI", Arial, Helvetica, sans-serif;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    padding: 1em 2em;
+}
+
+/* ===============================
+   Header
+=============================== */
+header {
+    border-bottom: 3px solid #9ecbff;
+    margin-bottom: 1em;
+}
+
+header h1 {
+    margin: 0;
+    padding: 0.5em 0;
+    color: #3a6ea5;
+    font-size: 1.8em;
+}
+
+/* ===============================
+   Layout Sections
+=============================== */
+main {
+    margin: 0;
+}
+
+aside {
+    float: left;
+    width: 160px;
+}
+
+section {
+    float: left;
+    width: 520px;
+    padding-bottom: 1.5em;
+}
+
+/* ===============================
+   Navigation
+=============================== */
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    margin-bottom: 0.5em;
+}
+
+nav ul li a {
+    display: block;
+    padding: 0.5em;
+    background-color: #e3f0ff;
+    border-radius: 8px;
+    color: #2f5fa1;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #b9ddff;
+}
+
+/* ===============================
+   Headings
+=============================== */
+h1, h2 {
+    color: #3a6ea5;
+}
+
+h1 {
+    font-size: 1.6em;
+    margin-bottom: 0.2em;
+}
+
+h2 {
+    font-size: 1.2em;
+    margin-bottom: 0.5em;
+}
+
+/* ===============================
+   Links
+=============================== */
+a {
+    color: #4a8edb;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #1f4e79;
+}
+
+/* ===============================
+   Tables
+=============================== */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 0.5em;
+}
+
+th {
+    background-color: #d9ecff;
+    color: #2f5fa1;
+}
+
+td, th {
+    border: 1px solid #bcdcff;
+    padding: 0.5em;
+}
+
+tr:nth-child(even) {
+    background-color: #f6fbff;
+}
+
+/* ===============================
+   Forms
+=============================== */
+form {
+    margin-top: 1em;
+}
+
+label {
+    font-weight: bold;
+    color: #2f5fa1;
+}
+
+input[type="text"],
+input[type="password"],
+select,
+textarea {
+    width: 95%;
+    padding: 0.5em;
+    margin-bottom: 0.75em;
+    border-radius: 8px;
+    border: 1px solid #bcdcff;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+    outline: none;
+    border-color: #6cb2ff;
+    box-shadow: 0 0 5px rgba(108, 178, 255, 0.5);
+}
+
+/* ===============================
+   Buttons
+=============================== */
+button,
+input[type="submit"] {
+    background-color: #6cb2ff;
+    color: white;
+    border: none;
+    padding: 0.5em 1.2em;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover,
+input[type="submit"]:hover {
+    background-color: #4a9be3;
+}
+
+/* ===============================
+   Footer
+=============================== */
+footer {
+    clear: both;
+    border-top: 3px solid #9ecbff;
+    margin-top: 2em;
+}
+
+footer p {
+    text-align: right;
+    font-size: 80%;
+    color: #5a7fa3;
+    margin: 1em 0;
+}
+
+/* ===============================
+   Utility Classes
+=============================== */
+.right {
+    text-align: right;
+}
+
+.last_paragraph {
+    margin-bottom: 2em;
+}
